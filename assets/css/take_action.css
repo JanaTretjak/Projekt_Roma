@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 179, 9);
+}
+header{
+    padding: 3vh;
+}
+a{
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: 700;
+    color: rgb(73, 97, 8);
+    transition: 0.5s;
+}a:hover{
+    font-size: 2vh;
+    border: 2px solid rgb(18, 66, 39);
+    padding: 1vh;
+}
+main{
+    text-align: center;
+    margin: 0;
+}
+video{
+    height: 50vh;
+}
+h1{
+    font-size: 10vh;
+    color: rgb(18, 66, 39);
+    margin-top: 0;
+}
+h2{
+    font-size: 7vh;
+    color: rgb(255, 81, 0);
+    margin-bottom: 0;
+}

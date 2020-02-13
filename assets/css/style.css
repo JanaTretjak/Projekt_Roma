@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 @font-face{
     font-family: santio;
     src: url(santio/ttf/Santio\ Bold.ttf);
@@ -14,10 +17,11 @@ body{
 }
 .header{
     padding-left: 15vh;
+    padding-bottom: 75vh;
 }
 div{
     text-align: right;
-    padding: 2vh 5vh;
+    padding: 2vh 8vh 10vh;
 }
 div img{
     height: 3vh;
@@ -30,9 +34,10 @@ div a{
     font-size: 3vh;
     padding-bottom: 1vh;
     border-bottom: 2px solid #e7bc0e;
+    letter-spacing: 0.3vh;
 }
 .header h1{
-    font-size: 8.5vh;
+    font-size: 10vh;
     color: #efefef;
     width: 25%;
 }
@@ -42,8 +47,8 @@ div a{
     text-decoration: none;
     color: #e7bc0e;
 }
-.description{
-    padding: 80vh 20vh 80vh 30vh;
+#description{
+    padding: 5vh 20vh 80vh 30vh;
 }
 h2{
     font-size: 8vh;

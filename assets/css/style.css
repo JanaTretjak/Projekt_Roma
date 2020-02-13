@@ -1,0 +1,79 @@
+@font-face{
+    font-family: santio;
+    src: url(santio/ttf/Santio\ Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: santio;
+}
+.header{
+    padding-left: 15vh;
+}
+div{
+    text-align: right;
+    padding: 2vh 5vh;
+}
+div img{
+    height: 2vh;
+}
+
+h1{
+    font-size: 8.5vh;
+    color: #efefef;
+    width: 25%;
+}
+.header>a{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 6vh;
+    text-decoration: none;
+    color: #e7bc0e;
+}
+.description{
+    padding: 80vh 20vh 80vh 30vh;
+}
+h2{
+    font-size: 8vh;
+    padding-bottom: 35vh;
+}
+.description h2{
+    
+    line-height: 11vh;
+    font-size: 6.5vh;
+}
+.white{
+    color: #fff;
+    background-color: rgb(41, 37, 37);
+    padding-top: 1vh;
+}
+.info{
+    padding: 0 20vh;
+}
+img{
+    height: 30vh;
+    padding-bottom: 8vh;
+}
+.big{
+    font-size: 25vh;
+    display: block;
+}
+.yellow{
+    color: #e7bc0e;
+}
+.pink{
+    color: #cb91b6;
+}
+.green{
+    color: #6bc1a3;
+}
+.blue{
+    color: #7eb8e1; 
+    padding: 0 20vh 10vh 50vh;
+    line-height: 11vh;
+    font-size: 6.5vh;
+}
